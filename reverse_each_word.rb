@@ -4,4 +4,5 @@ def reverse_each_word(sentence)
 end
   
 def reverse_each_word(sentence)
-  sentence.collect do{word|.reverse}. join ()
+  sentence.collect do{word|.reverse}. join (" ")
+end
